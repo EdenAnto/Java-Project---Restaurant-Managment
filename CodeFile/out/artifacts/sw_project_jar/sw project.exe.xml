@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\sw project\out\artifacts\sw_project_jar\sw project.jar</jar>
+  <outfile>C:\sw project\out\artifacts\sw_project_jar\sw project.exe</outfile>
+  <errTitle>my application</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <singleInstance>
+    <mutexName>Matan</mutexName>
+    <windowTitle></windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>Main</mainClass>
+    <cp>Main</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>17.0.0</minVersion>
+    <maxVersion>17.0.2</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>holad</txtFileVersion>
+    <fileDescription>Matnya</fileDescription>
+    <copyright>Eden&amp;Matan</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>holaaaa</txtProductVersion>
+    <productName>dsds</productName>
+    <companyName></companyName>
+    <internalName>gfgf</internalName>
+    <originalFilename>sw.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>

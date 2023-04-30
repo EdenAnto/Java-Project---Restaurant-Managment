@@ -1,0 +1,61 @@
+##Restaurant##
+
+--Details--
+10001,Burgers
+
+--Products--
+@1@,84214684,WhiteChoclate,3.5,9.0,14/11/2022
+@15@,84214693,Waffle,5.0,12.0,14/11/2022
+@15@,84214697,Tomatos,1.2,1.4,14/11/2022
+@15@,84214680,Shnitzel,4.1,27.8,14/11/2022
+@5@,84214702,Salt,0.24,1.2,14/11/2022
+@15@,84214698,Pickles,1.3,1.6,14/11/2022
+@13@,84214690,Pancake,7.0,13.0,14/11/2022
+@15@,84214696,Onions,1.0,1.1,14/11/2022
+@5@,84214683,Mayple,4.1,13.2,14/11/2022
+@2@,84214708,Lotus,6.1,12.1,14/11/2022
+@15@,84214700,Lettuces,4.0,4.1,14/11/2022
+@15@,84214699,Cucumbers,1.1,1.3,14/11/2022
+@15@,84214688,CreamCheese,6.8,16.2,14/11/2022
+@9@,84214692,Chocolate Cake,18.0,25.0,14/11/2022
+@2@,84214685,Choclate,3.2,8.1,14/11/2022
+@5@,84214681,Chiken,3.5,23.9,14/11/2022
+@10@,84214691,Cheese Cake,18.0,25.0,14/11/2022
+@15@,84214687,Cheese,12.1,25.8,14/11/2022
+@15@,84214695,Carrots,0.7,0.9,14/11/2022
+@13@,84214679,Burger,4.2,34.2,14/11/2022
+@13@,84214704,Bread,2.6,7.2,14/11/2022
+
+--Dishes--
+Burger: 84214710,Burger(1),Bread(2)
+Double Burger: 84214711,Burger(2),Bread(2)
+Shnitzel Burger: 84214712,Shnitzel(1),Bread(2)
+Mayple Pancake: 84214713,Pancake(2),Mayple(1)
+Mixed Chocolate Pancake: 84214714,WhiteChoclate(1),Pancake(2),Chocolate Cake(1)
+Shnitzel Salad: 84214716,Tomatos(1),Shnitzel(1),Pickles(1),Onions(1),Cucumbers(1),Carrots(1)
+Side Salad: 84214717,Tomatos(1),Pickles(1),Onions(1),Lettuces(1),Carrots(1)
+Mixed Chocolate Waffle: 84214719,WhiteChoclate(1),Waffle(1),Chocolate Cake(1)
+
+
+--Orders--
+Tables:
+84214720,14/10/2022,142.8,{Table:1,Diners:2},Happy BirthDay!,{Double Burger(1),Mixed Chocolate Pancake(1)}
+
+Suppliers:
+60001,10/09/2022,187.8,DryProducts:{(55)}
+60002,15/09/2022,196.1,JustMeat:{(12)}
+60003,11/09/2022,171.4,Tnuva:{(14)}
+82484679,07/10/2022,12.1,Tnuva:{(1)}
+82484681,07/10/2022,42.2,Tnuva:{(2)}
+82484684,08/10/2022,0.48,DryProducts:{(2)}
+82484688,09/10/2022,8.2,JustMeat:{(1)}
+84214678,12/10/2022,504.0,ProDesserts:{(6)}
+84214682,14/10/2022,142.0,JustMeat:{Shnitzel(15),Chiken(5),Burger(15)}
+84214686,14/10/2022,33.9,NadavSweets:{WhiteChoclate(2),Mayple(5),Choclate(2)}
+84214689,14/10/2022,283.5,Tnuva:{CreamCheese(15),Cheese(15)}
+84214694,14/10/2022,540.0,ProDesserts:{Waffle(15),Pancake(15),Chocolate Cake(10),Cheese Cake(10)}
+84214701,14/10/2022,139.5,VegiMarket:{Tomatos(15),Pickles(15),Onions(15),Lettuces(15),Cucumbers(15),Carrots(15)}
+84214703,14/10/2022,1.1999999,DryProducts:{Salt(5)}
+84214705,14/10/2022,39.0,DryProducts:{Bread(15)}
+84214707,14/10/2022,39.0,DryProducts:{Bread(15)}
+84214709,14/10/2022,12.2,NadavSweets:{Lotus(2)}

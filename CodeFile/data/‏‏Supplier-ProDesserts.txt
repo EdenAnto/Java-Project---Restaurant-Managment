@@ -1,0 +1,8 @@
+##Supplier##
+84214671,ProDesserts
+@999@,22200,Cheese Cake,18,25
+@999@,22201,Chocolate Cake,18,25
+@999@,22202,Waffle,5,12
+@999@,22203,iceCream Pack,10,18
+@999@,22204,Pancake,7,13
+@999@,22205,Apple Pie,23.2,40
